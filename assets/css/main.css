@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2015, 2:55:48 PM
+    Author     : BogdanD
+*/
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+    background-color:#000;
+    background-image:url(../img/banner1-1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height: 300px;
+}
+
+.prod-thumb {
+    margin-bottom: 30px;
+}
+
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.prod-thumb {
+    margin-bottom: 30px;
+}
+
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
