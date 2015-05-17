@@ -134,7 +134,7 @@ class Cart {
     } 
 
     /*
-     * Retunreaza numarul de produsedin cos
+     * Returneaza numarul de produsedin cos
      */ 
     function Nr_Produse_Cos() { 
         if (isset($_SESSION['cos'])) { 
@@ -159,8 +159,7 @@ class Cart {
         return true; 
     } 
 
-  /** 
-   * Creates cookie of basket items 
+  /**  
    * Creeaza un cookie cu produsele actuale din cos
    */ 
     function Seteaza_Cookie() { 
