@@ -6,22 +6,6 @@
  *
  * @author BogdanD
  */
-/* 
-
-
-USAGE: 
------- 
-
-$cart = new ShoppingBasket; Initialize class 
-$cart->Salveaza_Cookie(TRUE); Set option to save items ina cookie or not. Cookie valid for 1 day. 
-$cart->AddToBasket('ITEM_ID', QTY); Add an item to the basket 
-$cart->RemoveFromBasket('ITEM_ID', QTY); Remove item form basket 
-$cart->DeleteFromBasket('ITEM_ID'); Removes all of item selected 
-$cart->EmptyBasket('ITEM_ID' QTY); Clear the basket 
-$cart->GetBasketQty(); Get qty of items in the basket 
-$cart->GetBasket(); Returns basket items as an array ITEM_ID => QTY 
-
-*/ 
 
 class Cart { 
 
